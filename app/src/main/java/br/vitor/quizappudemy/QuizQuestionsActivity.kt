@@ -14,6 +14,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import kotlin.random.Random
 
 class QuizQuestionsActivity : AppCompatActivity(), OnClickListener {
 
@@ -57,10 +58,24 @@ class QuizQuestionsActivity : AppCompatActivity(), OnClickListener {
         tvOptionFour.setOnClickListener(this)
         btnSubmit.setOnClickListener(this)
 
-        mQuestions = Constants.getQuestions()
+        mQuestions = getRandomQuestions()
 
         setQuestion()
 
+    }
+// Extra funcionality
+    private fun getRandomQuestions(): ArrayList<Question>{
+        val randomQuestions:ArrayList<Question> = arrayListOf()
+        do{
+            val questions = Constants.getQuestions()
+            val random = Random.nextInt(Constants.getQuestions().size)
+            if(randomQuestions.contains(questions[random]).not()) {
+                randomQuestions.add(questions[random])
+            }
+        } while (randomQuestions.size != 10)
+
+
+        return randomQuestions
     }
 
     private fun setQuestion() {
