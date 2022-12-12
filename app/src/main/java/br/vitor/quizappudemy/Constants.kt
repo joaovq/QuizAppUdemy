@@ -110,6 +110,48 @@ object Constants {
         )
 
         arrayListQuestion.add(que10)
+
+        val que11 = Question(
+            11,
+            "What language of programming in image below?",
+            R.drawable.ic_java,
+            "JavaScript",
+            "Ruby",
+            "Java",
+            "php",
+            3
+        )
+
+        arrayListQuestion.add(que11)
+
+        val que12 = Question(
+            12,
+            "What language of programming in image below?",
+            R.drawable.ic_javascript,
+            "JavaScript",
+            "Ruby",
+            "Java",
+            "php",
+            1
+        )
+
+        arrayListQuestion.add(que12)
+
+        val que13 = Question(
+            13,
+            "What language of programming in image below?",
+            R.drawable.ic_ruby,
+            "JavaScript",
+            "Ruby",
+            "Java",
+            "php",
+            2
+        )
+
+        arrayListQuestion.add(que13)
+
+
+
         return arrayListQuestion
     }
 }
