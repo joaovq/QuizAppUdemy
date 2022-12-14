@@ -150,7 +150,96 @@ object Constants {
 
         arrayListQuestion.add(que13)
 
+        val que14 = Question(
+            14,
+            "MySQL is?",
+            R.drawable.ic_mysql,
+            "Data Base Management System",
+            "Language of programming",
+            "NoSQL Database",
+            "none of those",
+            1
+        )
 
+        arrayListQuestion.add(que14)
+
+        val que15 = Question(
+            15,
+            "Kotlin is?",
+            R.drawable.ic_kotlin,
+            "Data Base Management System",
+            "Language of programming",
+            "Markup Language",
+            "none of those",
+            2
+        )
+
+        arrayListQuestion.add(que15)
+        val que16 = Question(
+            16,
+            "What is brand of the iphone?",
+            R.drawable.ic_iphones,
+            "Microsoft",
+            "Google",
+            "Amazon",
+            "Apple",
+            4
+        )
+
+        arrayListQuestion.add(que16)
+
+        val que17 = Question(
+            17,
+            "What is brand of the android?",
+            R.drawable.ic_android,
+            "Microsoft",
+            "Google",
+            "Amazon",
+            "Apple",
+            2
+        )
+
+
+        arrayListQuestion.add(que17)
+
+        val que18 = Question(
+            18,
+            "Who is this pokemon?",
+            R.drawable.ic_charmander,
+            "Pikachu",
+            "Charmander",
+            "Charlizard",
+            "Snorlax",
+            2
+        )
+
+        arrayListQuestion.add(que18)
+
+        val que19 = Question(
+            19,
+            "Who is this pokemon?",
+            R.drawable.ic_pikachu,
+            "Zapzos",
+            "Charmander",
+            "Pikachu",
+            "Snorlax",
+            3
+        )
+
+        arrayListQuestion.add(que19)
+
+        val que20 = Question(
+            20,
+            "Who is this personality?",
+            R.drawable.ic_neymar,
+            "Romarinho",
+            "Pelé",
+            "Lady Gaga",
+            "Neymar",
+            4
+        )
+
+        arrayListQuestion.add(que20)
 
         return arrayListQuestion
     }

@@ -97,11 +97,9 @@ class QuizQuestionsActivity : AppCompatActivity(), OnClickListener {
         tvOptionThree.text = question.optionThree
         tvOptionFour.text = question.optionFour
 
-        if (currentPosition == mQuestions.size){
-            btnSubmit.text = "FINISH"
-        }else{
-            btnSubmit.text = "SUBMIT"
-        }
+
+        btnSubmit.text = "SUBMIT"
+
 
     }
 

@@ -32,7 +32,6 @@
             android:layout_width="200sp"
             android:layout_height="200sp"
             tools:src="@drawable/ic_flag_of_argentina"
-            android:layout_marginTop="16dp"
             android:contentDescription="Quiz image"/>
 
         <LinearLayout
